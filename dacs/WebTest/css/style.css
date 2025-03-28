@@ -1,0 +1,549 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #f5f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Banner and Navigation */
+.banner-background {
+    background: url('https://mayhopphat.com/wp-content/uploads/2022/08/Mau-be-nhat.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.nav-back {
+    padding: 20px 0;
+}
+
+.navbar {
+    background-color: #000;
+    padding: 0;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: #fff !important;
+    padding: 15px 20px !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.nav-link.active, .nav-link:hover {
+    background-color: #4caf50 !important;
+    color: #fff !important;
+}
+
+.dropdown-menu {
+    background-color: #000;
+    border-radius: 0;
+    margin-top: 0;
+    border: none;
+}
+
+.dropdown-item {
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+/* Logo */
+.logo {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo h1 a {
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.logo .hlf {
+    color: #000;
+}
+
+/* Banner Slider */
+.banner-slider {
+    padding: 50px 0;
+    max-width: 850px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.carousel {
+    background: url('https://ext.same-assets.com/2410215487/2321259713.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 380px;
+    border: 10px solid #fff;
+}
+
+.carousel-caption {
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 20px;
+    text-align: center;
+}
+
+.carousel-caption h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators {
+    bottom: 20px;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #4caf50; /* Changed color */
+    opacity: 0.5;
+}
+
+.carousel-indicators li.active {
+    opacity: 1;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    left: 15px;
+}
+
+.carousel-control-next {
+    right: 15px;
+}
+
+/* Our Products Section */
+.our-products {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.products-gallery h2 {
+    color: #63978b; /* Changed to a different color */
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.arr {
+    margin-bottom: 30px;
+}
+
+.bg {
+    background-color: #f5f2f2;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.product-img {
+    position: relative;
+}
+
+.heart-icon {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: #63978b;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caption {
+    padding: 20px;
+}
+
+.caption h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.caption p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.btn-danger {
+    background-color: #d75650;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 20px;
+}
+
+.btn-danger:hover {
+    background-color: #5a9bd4;
+}
+
+/* Traits Technology Section */
+.traits-technology {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+}
+
+.traits-text h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.traits-text p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.list-traits {
+    padding-left: 20px;
+}
+
+.list-traits li {
+    margin-bottom: 15px;
+}
+
+.list-traits li a {
+    color: #d75650;
+    text-decoration: none;
+}
+
+.list-traits li a:hover {
+    text-decoration: underline;
+}
+
+.more-btn {
+    margin-top: 20px;
+}
+
+.bt {
+    margin-left: 15px;
+}
+
+/* Logo Boxes */
+.traits-logos {
+    margin-top: 30px;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.logo-green {
+    background-color: #9fa53c;
+}
+
+.logo-yellow {
+    background-color: #cccc93;
+}
+
+.logo-red {
+    background-color: #d75650;
+}
+
+.logo-blue {
+    background-color: #63978b;
+}
+
+/* Brand Logo Section */
+.brand-logo {
+    background-color: #d75650;
+    padding: 30px 0;
+    color: white;
+}
+
+.logo-item {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.cursive-text {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1.8rem;
+}
+
+.brand-text {
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+.light-text {
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.heavy-text {
+    font-weight: 800;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+}
+
+/* Footer */
+.footer {
+    background-color: #f5f2f2;
+    padding: 50px 0 30px;
+}
+
+.footer h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #777;
+    transition: all 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #d75650;
+}
+
+.footer ul li i {
+    color: #d75650;
+    margin-right: 8px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-icons li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #d75650;
+}
+
+.copy-rt p {
+    color: #777;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.copy-rt a {
+    color: #d75650;
+}
+
+/* Back to Top Button */
+#toTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.7) url('https://ext.same-assets.com/2410215487/1525201403.png') no-repeat center;
+    background-size: 20px;
+    border-radius: 5px;
+    display: none;
+    z-index: 999;
+}
+
+#toTop:hover {
+    background-color: #d75650;
+}
+
+/* Responsive Styles */
+@media (max-width: 991px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .carousel {
+        height: 300px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+
+    .logo-box {
+        height: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-slider {
+        padding: 30px 0;
+    }
+
+    .carousel {
+        height: 250px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
+
+    .our-products {
+        padding: 30px 0;
+    }
+
+    .products-gallery h2 {
+        margin-bottom: 20px;
+    }
+
+    .traits-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .logo-box {
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    .footer {
+        padding: 30px 0 20px;
+    }
+
+    .footer h4 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo h1 a {
+        font-size: 2rem;
+    }
+
+    .carousel {
+        height: 200px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.7rem;
+    }
+
+    .caption h3 {
+        font-size: 1rem;
+    }
+
+    .caption p {
+        font-size: 0.8rem;
+    }
+
+    .logo-box {
+        height: 80px;
+    }
+
+    .cursive-text, .brand-text, .light-text, .heavy-text {
+        font-size: 1.4rem;
+    }
+}
+/* Adjust dropdown menu alignment under "Tài khoản" */
+.navbar-nav .dropdown {
+    position: relative;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: auto;
+    margin: 0;
+    left: 63%;
+    transform: translateX(-50%);
+    min-width: 100px; /* Adjust width as needed */
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
